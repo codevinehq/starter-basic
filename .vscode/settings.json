@@ -1,0 +1,9 @@
+{
+    "html.format.endWithNewline": true,
+    "html.format.indentInnerHtml": true,
+    "prettier.tabWidth": 4,
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "starter-basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lunr-digital/starter-basic.git",
+  "author": "Alex Meah <alexmeahdotcom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "devDependencies": {
+    "@lunrdigital/eslint-config": "2.0.0",
+    "babel-eslint": "10.x",
+    "eslint": "6.x",
+    "eslint-config-airbnb": "18.x",
+    "eslint-config-prettier": "3.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jest": "22.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "3.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "1.x"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss": "^7.0.32",
+    "tailwindcss": "^1.4.6"
+  }
+}
